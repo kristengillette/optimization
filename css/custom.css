@@ -1,0 +1,51 @@
+.menu .account {
+		float: none;
+	}
+
+.menu .account li {
+    margin-bottom: .2rem;
+    }
+
+footer .social svg {
+	height:35px;
+	width:35px;
+}
+
+.hero {
+	position: relative;
+}
+.hero .info {
+    position: absolute;
+    bottom: 3%;
+    right: 2%;
+}
+
+
+@media only screen and (min-width: 40.063em) { 
+
+	.menu .account li {
+    margin-bottom: 0;
+    }
+
+    .menu {
+    	height: auto;
+    }
+
+    .menu .account, .menu .inline-list {
+		float: right;
+	}
+
+	.clearfix {
+  	overflow: auto;
+	}
+} 
+
+@media only screen and (min-width: 60.063em) {
+	.menu .inline-list {
+		float: left;
+	}
+
+	.menu .account {
+		float: right;
+	}
+}
