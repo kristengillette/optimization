@@ -2,7 +2,7 @@
          var photoNum = "";
          var photoHTML = "";
          var modalId = "";
-         var largePhoto = true;
+         var largePhoto = false;
 
          $(".image a").click(function() {
              if (largePhoto === false) {
