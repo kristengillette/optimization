@@ -20,8 +20,22 @@ footer .social svg {
     right: 2%;
 }
 
+.image-grid .row {
+	margin-bottom: 0;
+}
+
+.image-grid .columns {
+	margin-bottom: 1rem;
+}
 
 @media only screen and (min-width: 40.063em) { 
+
+	.image-grid .columns {
+	margin-bottom: 0;
+}
+	.image-grid .row {
+		margin-bottom: 1rem;
+	}
 
 	.menu .account li {
     margin-bottom: 0;
